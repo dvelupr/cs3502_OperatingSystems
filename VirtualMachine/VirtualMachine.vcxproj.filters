@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\pcb">
+      <UniqueIdentifier>{529f4912-ebd0-43ae-9634-1274063c6a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\memory">
+      <UniqueIdentifier>{182cc4e2-2828-467e-b27d-10c8ed20bcb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scheduling">
+      <UniqueIdentifier>{33f2bd18-ca7a-4978-8864-0550ba3bbf76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waitforinterrupt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ancillary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="word.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="registers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="processcontext.h">
+      <Filter>Header Files\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryinfo.h">
+      <Filter>Header Files\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="pcb.h">
+      <Filter>Header Files\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="schedulinginfo.h">
+      <Filter>Header Files\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="decodedinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shorttermloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mmu.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pagetableentry.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="schedulingpolicy.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="readyqueue.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="dispatcher.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="pagemanager.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="performancemetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pageaddress.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memorytype.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="schedulingsystem.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="timeduration.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="safequeue.h">
+      <Filter>Header Files\scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memorymanagementpolicy.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="cachepagemanager.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pagereplacementpolicy.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="hole.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryallocationpolicy.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="ShinyVMSimulator.Views.SchedulingInfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ShinyVMSimulator.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Border Padding="10">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <!-- Scheduling Policy -->
+            <StackPanel>
+                <TextBlock Margin="10 0" Grid.Row="0" Text="Scheduling Policy" />
+                <ComboBox SelectedIndex="0" Margin="10 0" Grid.Row="0">
+                    <ComboBoxItem>First Come First Served</ComboBoxItem>
+                    <ComboBoxItem>Priority</ComboBoxItem>
+                    <ComboBoxItem>Shortest Job First</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <!-- Scheduling Info - Table -->
+            <DataGrid Grid.Row="1" x:Name="schedulingInfoDataGrid" />
+
+            <!-- Scheduling Info - Graph -->
+
+        </Grid>
+    </Border>
+</UserControl>
